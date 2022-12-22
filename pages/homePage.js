@@ -44,7 +44,7 @@ export class HomePage {
     cy.wrap(srcArray).then((srcArray) => {
       if (srcArray.length > 0) {
         cy.writeFile(
-          "result.txt",
+          "reports/result.txt",
           { pageName: pageName, src: srcArray },
           { flag: "a+" }
         );

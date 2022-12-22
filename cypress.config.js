@@ -23,7 +23,7 @@ module.exports = defineConfig({
     numTestsKeepInMemory: 1,
     supportFile: "support/e2e.js",
     specPattern: "e2e/**/*.cy.{js,jsx,ts,tsx}",
-    video: true,
+    video: false,
 
     includeShadowDom: true,
     // watchForFileChanges: false,
