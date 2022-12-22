@@ -1,7 +1,7 @@
 name: Cypress Tests
 
 on: 
-    workflow_dispatch:
+  workflow_dispatch:
     inputs:
       testBranch:
         description: "Which branch to checkout and run test"
